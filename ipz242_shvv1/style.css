@@ -83,3 +83,13 @@ footer {
     padding: 20px 0;
     margin-top: 40px;
 }
+
+.news-card { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.news-card h2 { margin-top: 0; color: var(--header-bg); }
+.news-card .meta { font-size: 0.85em; color: #666; margin-bottom: 15px; }
+.news-card p { margin-bottom: 15px; }
+.news-card .read-more { color: var(--link-color); text-decoration: none; font-weight: bold; }
+.sidebar h3 { margin-top: 0; margin-bottom: 15px; }
+.sidebar ul { list-style: none; }
+.sidebar li { margin-bottom: 10px; }
+.sidebar a { color: var(--link-color); text-decoration: none; }
