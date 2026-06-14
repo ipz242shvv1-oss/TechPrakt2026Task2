@@ -37,6 +37,11 @@ main {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.news-item:hover {
+    transform: scale(1.03);
 }
 
 .news-image {
