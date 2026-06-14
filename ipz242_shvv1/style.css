@@ -93,3 +93,13 @@ footer {
 .sidebar ul { list-style: none; }
 .sidebar li { margin-bottom: 10px; }
 .sidebar a { color: var(--link-color); text-decoration: none; }
+
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    main {
+        flex-direction: column;
+    }
+}
